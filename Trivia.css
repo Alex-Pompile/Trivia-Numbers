@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+   background-color: #27187e;
+   
+}
+
+
+
+.container {
+    background-color: #f1f2f6f5;
+    width: 95vw;
+    font-size: 16px;
+    max-width: 31.25em;
+    padding: 3.5em 2.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 45%;
+    border-radius: 3em;
+    box-shadow: 5px 1px 20px 10px #758bfd;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container input,
+.container button {
+    font-size: 1.25em;
+    outline: none;
+    border: none;
+    border-radius: 0.4em;
+}
+
+.container input {
+    width: 40%;
+    border: 1px solid #aeb8fe; /* Bordura inputului */
+    padding: 0.6em;
+}
+
+.container button {
+    width: 55%;
+    background-color: #ff8600; /* Culoarea de fundal a butonului */
+    color: #f1f2f6; /* Culoarea textului butonului */
+    font-weight: 500;
+    padding: 0.7em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background: #758bfd; /* Culoarea  la hover */
+    transition: 0.3s;
+    box-shadow: inset 1px 1px 15px 6px #000000; /* Umbra butonului */
+}
+
+.container button:active {
+    top: 3px;
+    position: relative;
+}
+
+#ran-fact-btn {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.fact {
+    background-color: #f1f2f6; /* Fundalul boxului cu faptul random */
+    box-shadow: 0 0 1.2em rgba(0, 4, 52, 0.1);
+    margin: 3em auto 0 auto;
+    padding: 2.8em 1.8em;
+    border-radius: 0.6em;
+    border: none;
+    border-bottom: 0.6em solid #27187e; /* Bordura boxului cu faptul random */
+    display: none;
+}
+
+.fact h2 {
+    font-size: 2.8em;
+    color: #181a34;
+}
+
+.fact p {
+    font-size: 1.15em;
+    font-weight: 400;
+    color: #50526b;
+    line-height: 1.8em;
+    text-align: justify;
+    margin-top: 0.8em;
+}
+
+p.msg {
+    text-align: center;
+    font-weight: 500;
+    color: #181a34;
+}
